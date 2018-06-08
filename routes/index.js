@@ -9,7 +9,7 @@ var products = JSON.parse(fs.readFileSync('./data/products.json', 'utf8'));
 router.get('/', function (req, res, next) {
   res.render('index', 
   { 
-    title: 'NodeJS Shopping Cart',
+    title: 'NodeJS Shopping Cart1',
     products: products
   }
   );
